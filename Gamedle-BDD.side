@@ -1,0 +1,716 @@
+{
+  "id": "3a0ae9eb-1f66-44fc-80ee-efd5a3d6fbc5",
+  "version": "2.0",
+  "name": "Gamedle-BDD",
+  "url": "https://loldle.net/classic",
+  "tests": [{
+    "id": "519d1a40-ed2d-416d-a958-576629d18074",
+    "name": "Campeão incorreto",
+    "commands": [{
+      "id": "7667e1dc-7cc3-4391-8811-b7580545515c",
+      "comment": "",
+      "command": "open",
+      "target": "https://loldle.net/classic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d876442-1174-4681-af91-f59cb795ff97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "811bb0d2-e39c-45a0-83f6-c175ba558a8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5d05265-51e0-43ca-bb99-4ac346938783",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lulu"
+    }, {
+      "id": "d61f6049-2b74-42fd-9472-12cab7d2a87c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1ebbea12-0ebb-4e2b-ae89-c90c70db727c",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ahri"
+    }, {
+      "id": "1e3497c7-aaa2-40d0-b6d8-8b03da67cc0a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "06e3c4d7-418e-47ea-9f98-b897f540dd75",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lucian"
+    }, {
+      "id": "1ce0b667-42c8-4e84-a51c-e364575a1a00",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ce4e364a-7535-4628-94fc-e331fb31fa53",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nami"
+    }, {
+      "id": "01bb2557-1c0c-4b1d-aa89-6dabfc00c2f8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e8fccc69-478a-4473-8383-57cfee41005d",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "naa"
+    }, {
+      "id": "418d08fa-d2b9-4ca1-8253-d911664ddf50",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f22d2fa1-be4b-4025-9f22-f87be9f9b52a",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nasus"
+    }, {
+      "id": "d9817007-0c43-4cfc-b1a2-1e4b3986f3bf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "1dd5bb65-e5af-44b0-9d4f-7fce0da4372e",
+    "name": "Campeão correto",
+    "commands": [{
+      "id": "8e4132e4-e9f6-4eaa-b749-19ae69596f0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://loldle.net/classic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "392a517f-7d58-467a-b564-faa420bca2b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c7bb94d-2aee-43a7-8ec6-55f1d2b7a6ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1af958-7c40-41b0-b637-87709088b236",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lil"
+    }, {
+      "id": "55981387-9c75-42f7-86b6-552d0f28b526",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8dbf8b34-d323-4ff2-95fa-b4aa5fc88192",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,169)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9a38b73b-9afe-4a66-a792-875411fcd911",
+    "name": "Dicas",
+    "commands": [{
+      "id": "4d310926-2b1f-457b-969c-0f48c4e71beb",
+      "comment": "",
+      "command": "open",
+      "target": "https://loldle.net/classic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "602793be-c9d2-4367-bb05-88567f006107",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5800e81-792c-4a71-90d3-4b9dddb9d559",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98242a50-992b-4344-96d7-d6882739a1ad",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nil"
+    }, {
+      "id": "da4e502c-9c9d-496c-8003-d5f6a9fb3d37",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c8f2c7fa-4239-47e3-8595-1d2bf09c8536",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nida"
+    }, {
+      "id": "2ce206cc-7810-43f8-a82b-119b49887d4e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8364169c-5d19-40e6-801e-1d1d7a0df83f",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ch"
+    }, {
+      "id": "cad8f584-6fdf-43a5-a3bf-6e973cb8d0d6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0835752d-6b2a-4462-b0af-88a83f129b68",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "xe"
+    }, {
+      "id": "2bcec309-dc0f-4a2c-916b-8141aba1bb61",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cf99f4b5-897f-427a-b61a-d31ffe4341ba",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dian"
+    }, {
+      "id": "9171e93a-0f1a-4542-bd8b-fddbe91977bd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "058d3a4c-1159-405e-a67e-c2d8c170bccb",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fio"
+    }, {
+      "id": "9c98ae6e-52ab-4271-946e-754d300b7a70",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "32760071-fb4b-4067-8721-a7f98f9f0af0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clue-unlocked img",
+      "targets": [
+        ["css=.clue-unlocked img", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA5CAMAAABQ8ci0AAADAFBMVEUeIygAAAAdIifIbgvUkCHdqzPYnSrbpC7NexPfsTcfJCnLdQ/PghjSiRwaHiPjv0DLdxTiuTzKcg7mxkQEBAXWlybWliXlzGTNgB3kyGDny0cKDA7p0UvRhxsGCAnhtjrozUkPDAbOgBbjw1wTFhnSjCgPERQXGx/lwkIBAQHWnDc0MCfZoz7hv1g3NizUki7n0WgcFwjaqkLMehcNDxLgu1MTFxpPSzHOhSHcrUbetk9MLAZoYDXdskvjvT7ZvEJ/aC5yViHAehqVaiEYEAUsLCjLdxFPQSZKOSTMqT7WmS7l0GiPgDhXTBvVljGUfjDfszhjVzbLjCTgtDjaoi3RiSN6XCbHpDbVlSiugSllOgiOcSq8ag03Kg/qz0quZA5kUi24ljK/iyvkx1/csErNrlINCALhv1d/WyDZoDB4azZANyjEpk52YyDfz0C0cBiJVhTnykcpKijFlTW7giZaPh/SjCOCcScwIQmAcTzElC6giDCGYB6zaRLXojWaXxJiPg7PnzDJcQ7HdAzju0Dq0UtsWzHPhBzoy0fjxF3OnTWnkzzSjSTPiCBSQBKZgzasbxvoykYsGAPQiSCoginkuz3mzGTm0mzmyEXnz2jm0Wnnz2bdsUvnx0jWmzCumTbbozXp0Uzcr0jVkSFzZjzn1WphRyFIQC3YmyjBnT2mdSXr0UyvkkbkzWXIbwyTXxzkvz/QhRrq1Ex2Xi7r0U2jiDWteSJwTBi0nz7Hawh/SQrjvT7WlSPgu1OTVRPcsk3Zoy7apD7QhRnRiiXVtlW3dxjOgBzjw1zq1EzkwEDVmiXfz3DmxkTaoi3PgBXfv1Dmw0PUljDfrzDfszfXmCbfvVXGawnbqzRyQQjJcxDPgBDSki3ftk/mz2jPgyDftTXfv1jPnyDmzEnXlzDMexfXoj3jx2CZiEnfx2DdrTJoQhrZoDrPgCDZqUPPjzBFMw7XpULq1Wp3Uhrmz2jpykfKcAtkVh3kxULr003fuFTfulDkukCNfkbKdRXfrzXYnzrWKLzNAAABAHRSTlP/AP7/////////////////////////////////////////////////////////////////////////////////////////QP////9A////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')]", "xpath:img"],
+        ["xpath=//div[3]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c234d627-46c3-403e-b4ce-6fec114c5945",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1add3964-a004-43c4-bd5c-67a4ebe4a39f",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "q"
+    }, {
+      "id": "59b24e2e-550d-493c-9778-a8e16e4c6648",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4aba4e16-9f9f-4412-8760-001598cca1c5",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qu"
+    }, {
+      "id": "9fb6969d-570b-4631-ad21-eef81333c347",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "68a0ed25-97b1-4e47-b2a9-00668e780a1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "j"
+    }, {
+      "id": "502d0766-cfe7-45bf-973f-dae369e08d0c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2da68831-35e0-4dc9-b882-14701f7baf77",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jar"
+    }, {
+      "id": "0e09650d-901a-4885-9cde-f76e4c88e3ab",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f70b6f00-7491-4e53-91e8-76284f227ecb",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jax"
+    }, {
+      "id": "64106671-c9b8-4984-b0bb-f7b94258b9e4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2dfc8260-4f82-4d4b-b8e3-636cf0d31aa6",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "f"
+    }, {
+      "id": "7a3e30ee-3646-4001-83cc-08faefc899dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4f3ae3b7-b826-40b0-b32a-aa530d86359f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d299011c-4e97-412e-b655-7736b5f13b90",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "t"
+    }, {
+      "id": "a63f8b92-ebf4-4373-8a70-54d5a62435e0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "26ee5004-21d9-41fc-8cec-7515ab258e7e",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tari"
+    }, {
+      "id": "de6cfc2e-f6f7-4c7e-b09a-84ea55b5d48b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9b263618-5b4c-48a3-b091-51608cf16bfb",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ta"
+    }, {
+      "id": "f8ecca53-f775-4dde-97d3-b031b5b63f3c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ecbfa315-7326-40a4-9500-aac75ca603ec",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tal"
+    }, {
+      "id": "eb1f036e-545e-4e69-9c60-765e1ffadfac",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d38ea82d-7c48-49f8-99e8-66fa19fa4384",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "y"
+    }, {
+      "id": "9716df8b-51dd-4485-9dd5-58c9eeda9389",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2016f70e-3081-48c2-8b58-8c08cee41a51",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "y"
+    }, {
+      "id": "3278246a-9cf7-449e-8d26-5ceb35abd8ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "df05e65b-29f1-48c4-841e-6fda643239f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-tooltip-open img",
+      "targets": [
+        ["css=.v-tooltip-open img", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAADAFBMVEUeIygAAAAdIifr1U4eIyjo1WwfJCnq1E3JbwvNfhsPEhTRhhvn1GscISYXGh7VkyPVmDPJcg/dsksaHyPhtTnRiyfdqjLNexPr1U7ZnirozEjLdhLlwUETFhnnz0jly2MLDQ/ZpT8VGBzdyUsqLSoICQsRFBfhvle4qUXiwlvp1GvSv0nr1E7q00xrZjbr1E7jvT6Eezvn1Wzs1k44OS3Tjh83OTDbqUTn02vpz0rn02zbpS7QhyPYnSlnXSJRUDPr1k/lxEPTkCsNDxLPv2Tfz3Do1mzr1k7OfhXYoTu3qlqDe0lkXDDn1GuwnjkVFA7nz2h3cTkSDwqRhTyekkAhHxBDMA0AAQFXTigoGQY0LyflzWRjTSe8aQxERTPm1Gx0ajbr1U47Nhedk1DbyWffz1AfGwuEeCzNul9qZkHgulNRUDl0Rw+jcidrTSCRhkE0IAffz0CzaxBaOQylgCWYWAwPERPr1k7EkS0vKxZ2XyLr1E1qRxKOf0OcdCTNeBSjfDDlxURIPhlmTRkVDgXn1Wrq1Up9ZStTMgmBVBqAcTtTQhTn02zm0myLcDA3Kw6Ph05hSiPerTR2cUZMQi2DVBF2YC4GBwjFtEdXTRvo1GxROQ43LBJOSTDCs2CdaxrgtDjVlSSQdTXPjzDGawnXnzmKTgrTjyvRjynPgBCoj0DKdRDIbguIbzfHslbiwlrkwlvPhhrjvD7mtTrJdROKah/YoDrkuz2wkDTTs1Lfx2Dmy2MqHgmThTHgulPXp0BSQhzVmDPWnCndsznHbgvFoEfVpTDgtDmwYgq6gB7Zp0LerjToy0fIqE6fYRjXr0jQhyPfskquoFHOfhXPgCDr1k3dsUrft1DaqUPPn0CTVhTftlLZukHo1Wzr1k3vz3CHYxrVlSPvz1Djw0LLmDrSjSDKfRjLlCeFXyBJOCJmPQnVlzLMlShcVTiagzW+kDe2dRceFAiQYBtQTS+IaCjapS9AOCl+TRdUOx9IQiLEfhmVbB3ny0cuKhDLdxCaXhNCReS4AAABAHRSTlP/AP7//v/////////////////////////f//////8g///////////////v/+9A/5///2B//////3D/QP//////YP////8Q37///////6D//yD////////////+/////5D/z////xD//////////////xD//////o////9Q////QP9A////MDD//////4BQ////////////////v////v//////EHCg/79wEP8wz///33BQzx+w/99w//8gv///70D/71CQoP8w7///gL/v//8gv6//3yBw3yD/EP9w/8+vEP9gEJD/YGD/////YP///v/////+/9///////////8//q7MJYgAABihJREFUeJyFlwVcFFkYwN9O7OKws3CMnMDeykosKyEpeIQIcgqKpN0dYHfn2Z6BHafgdXd3d3d393l9Xnzfi5mFXX9+yg4z+/3f1+8NxBZKNr2WOSEmXZblmAnv52ZMCakTgszIRMYUhyz379P17OSU3HSHA7XhBz/Zh+zIDGLbk/NyubnEQ4Oze4DUN/rTuO2ObDsyI4ZhjaWKQuxEIVTG9vAzw7lnJJdQv/ylEiGKhBhHCckbTN2OCTRrkVP6I+gvRU2FSBJyHIWlGBuzKQTZFTx1JNYrQChICpOwBKPzaMB9gkgE5bQ8ZgHdZbCuGYyzE5LUiMGYKCepRX8SC5Daoh8JU6dyd/Gfko2ZWtGenACPBls5ARp/69s7cSKBJJtSD2rpPE2MzIUnhwREMwLqkneaLC8TK7Fvs7EjP7bIDIwRXOUJZTmRNABlsGkKfCdhrEssErODyWFZYWEpnt5Yh8M6gch5fmFpxQ+6GYJEX+tRH9tGKOlDaN9Mc1Hn8YdepLxEmABOYl7TRMXNLPnuo2TNYhYkFooVF0PF0gDZB7wqxWcCpMlkJuXEWr4iLTBmXEqTHWgUSDDpN2uIV3TaBVHSCesN7jKjohV7sEiJbQVoVHNXRJBQyho+XDXJ8AVvD1axJIg0E8lMhyPNXFBcpGRzT2BGKczyJ2U7HOnzgHw2Lq6RVtEyCPIP30kccuIQHRe0U48peer06bh1NrKurKzslGmNrepT9PVxKOfjR43XbAVA8ft3y8o+sZE7srKyaFZYofFiDNONw+dZstwH31OPuNb3WVk328gjra138uh5kMbUDS5je+cA2WWwLuA1Vw50bn3CRp5padnJICgkuqN4b1uoGdvPRVm4ml6WNujmuogPb2lpuYX8WlS0Ge45iiaPxn5Rqw+NjY39dmjyh3AB+bsvqzIPd2RRUdHjpKSkZDSfXOQkkvxURMRK170RERFHPdoJuKAMxdLQKDHNJLak5GHS1tY2WiQVPXFtCQ8P/+unhvDw/Rrx7IcblB8bxHZE3QPoI9KzZ889fCKpeOd3AZl/4aIuIwzJtQBvUL5Go7QhUBegzwgsuEeEju6MCGMy5kkooz6X34WNgSa0qg7QTeSVysrZ1sgrri3ncLncB6raInE7F9IrypJUWVm5hvzrdm8NaJGEmZ1Q/uvUaaYLCqiPoLcgcMsmFf5/5Xa7ryGPhoW9LYYL95Ct0ShzT0SvBFWi+BbQ++jon9EFLn+A+zZyKcQgNlSw6vkyEmTpwV2RG1x0kL2r8UFk5CxNbAyE/B4Wdq2NrAHLI60ZS1jeDWSt5pv9i4ft8g0/4JNuaxfj/LID43m3+1YbuQpiwBTxzBkPRoHs9BDtmMYy4jqGT6I2JyjoAqIjAfkc5vPF4uJZ5j6uSLV3paSknEwgxAMdR6Xv1fAkZb1h7hh7iouLXwXyyvLy8t9Y40l2RfFtix81ahWQYrIUY3j8qPjrk3mM8HBWefkVuJtc8lBk5AGrh/SGyao6xwN6dj6uZJlTVYezMw33pH2Qr2/o3ndZVdWnSbRrqaKrWlUnwSxb7TFRdWZr1rl0sqrq9rco+cCbBQXXYTsyC5I2Xp0OnQers0f6n84BB80zTtpXUFDwND8dXoLUXRxw2nnHq0PMYZQUz5yXa3Gy6Z4gKY9FRb3+AiffuL+p6Tk4yiiMA6yNr8bjhE47DGx1sk6HF0n7tqampnfMs+zG7t27r+JThJNq9w3TaNTorzGMBc1G8TtQvSHg5L0nPj5+IGsGWB2uhtfsUh+bTHaTPx007w4g61KdTucMM3u06wRKW1qAFaDXq917QiGUTAWrON4sU2xTpm9U9GDFPT6/ArR2dHiryYFngAaYhZi5Wdqu8Hsz9Ig6KOhNiqLH82nircMJ+kicq2S36nRaYMDb20UQqzp5YOBLjAgaF2k+jkuPM9UD3xjr+jlVp1rBE8UMiUO+eYAK36Xy5AS9a34wDpdVKyaNZeUR50HSXuBA3tsYoNzhzXhjP6rirJi0txlClkj+2Bm7KdbBYIi38RzGBknqjgs6aAb/BVA4KDWIO9KrIxfybwdI87gjFt1vUAjsTCRKXWFhTk5OYV1ICuV/B7IKcKI5hJsAAAAASUVORK5CYII=')]", "xpath:img"],
+        ["xpath=//div[3]/div/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e85cd1-1c34-4cb3-a864-d0e4068a22e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-tooltip-open img",
+      "targets": [
+        ["css=.v-tooltip-open img", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAADAFBMVEUeIygAAADr1U4dIifo1WweIyjq1E3q000fJCnn1GsaHyPbpi/TjR7UlC/NfRrdqzPly2LWmjXKcw7n0Wjft1AoKBjkwUDNehMrLisRExYTFhnJbgvdx0k3OS2RhUOThTDo1WvVlTAPERQWGh1rZTbr1U7LdhJBPSXgulPn12jeykzMehPp00zs107r1k2cklLjvD7s1U7Sv0kpKyjbyWfdskvQhyMcHhmekkDYnCjTkCsbICUoKByEfDs7KBBoXiPq1Uzr1k3fz3DWliTjw1sdEwfkwEA3OTDr1E7p1Ww0MyHn1WtRNA2/rT90ajaiaR0hFwzbqUTQvUglIxTgtDiuoFHOuEPnz1Doy0gYHCHOfhXlxEMVGBzQhhrTky6JaB7p1Gupnlfq02poQg6DVxOfkUlbUyHn02yEeCs9LxVPSzDYoTuCeD3erTTo1Gzn1GtaVC52TxpOSCjXoDshHQ/Pv2RERDFeWz7VmDPIbAzLu18tHgyqnUI4JQ1/SAnPhSLnz2jozEjfv1isahe4jS3n1GyThjHnz0i5o06qcSDKr1U/NxjcrTR1ShDgtDl1aie5qlnq1U1OSB6GYCHYxWPWmDODfEqleiOGdTzboizn02yMcjKikzbn13Do1GuwnzpRTzGAThGRbShgUjAfIB1JNyHHbAjZpS7KkDLbqkPfv0DHcAh2cUXMfRrOoUF3cTmahzjaqULXnzhCPivLeBDLdRLfszZRUDkTEw7Es0aPeSnPjyDjx2LVlSTOfRvmvTq/ijPUliXLdhDiw1xeWzR4WSrMfhXlxEPky2Lfy03vz0DXnzrPhhqabCLlw0LNfxvguVLcr0rgulPfrzjfz1Ds1U3IjSPs1k3r1k3GmzJpRx7r1U7p0mzPhyhnYDI1MR/Tjh/BrVnbr0hiTCp7YzLvz1BrZ0LPfxWnl1GOfjfDmUCRhz3LuF2PdyjSpTO4qERCPh2qfym1bBPRhxpCPiXSjiCQZiM0MCh3cThzaDQ+MSLXnilQTznCs199azqNYR/al4NrAAABAHRSTlP/AP/+//7//////////////////////////////////9//////3////yD//0B/j///n///////////////////YL8Q///////v7/9g//////////////8g//////////+v/zD/////QP///v///7+g////////////UP//////cCCfIP//kP8g/////3D/////MP///7////+fgP//IHD/////////QID/vxAg/q/////fQP6A71D/////EICwvx//oHDv//+Qz3D/EGCg/+//32C/QBCv/1Cv///PUCD//7//QP//EP+f//////////////+w/6D//////6D/////eHJQ6QAABe9JREFUeJyNlwdYE1kQgB9ZNglL8ZqSxJBgIkEUQQGFSJNyolIE8ZBqBRQpAiJgP3s/u95Z0fN677333nvvvffz2swrmw0s3zkku9nd+XfKmzfvQQL0ZPr4uNejJhoMholvZcW9Nl1XR4fcNTIKGFWMBkNU3K7TIGOzjEbUhi8e2cFgzBr/P2RsFjeUkJI+FCV9+R3cdlQv1o98+RWqMzxlqEUmZiITKpaHU4bT+6M39kfGYk6Mw9MTCZElxDgK8NAEGq/WrIYcSe2lWygiSchxVIIvY0fqkXGYjeUWIGQkhUl4BaMjUqjHfcnRcPuJ65gFUAacIfxoRrMQrlFFBQmuGhM6WYDUFnNUdRf/5Iip8Po4fxJjnBqhagKtZgeSrEpEAujxWBm5EXMDILcCHoI6Ta/6Jg0aqyGx3HpoNjChitWqIC5Idk1fKnViTTypkuhrOhsMOFZn2sucu60VzHhF8vfz7fYdNhavJP8uQkVyOlwkoBqWjUTqacHYnbtd7urkrU47Ld16lmVAv+P+IokDQoOkI6A4xSyxHytkGIhToc6CRgSMTRYjwaQxBe+xofOR2onmVNAdzLiUDtdgFEhqUoyhTJQNQlvY89mkjlnAKEQKZBSY5K6gVcVpNBmZ8LPJZDICKUZM+gp6xSdAxsKDHl8JEOXOQRMGTZgwiAn8pOdvwFtekVIPvGs8kKvLy8vQTVHaysxgHZkJJKto8K2svHw1kI9VVV2vqVNJqQ3RkVrqLaDIflFV9WwAuXLUqFGtvDhhtMDmyrN0ZCWtIq61AJj7yEvTLph2k8gr9fZ4mI4cV/hMxRmYCMytZFtz87cMgtaD7ih7ztSRPRinWi1vDGjeRi4LDl7H5wV2LbB56BwdOaSoHQ3O64KDLyKnvN4f+MxFTiKK42wdcUCcNErAzeSE13uKPJCTc0BME4m4rS6rIyiwlwQFBjnggZsVArAncnLuIb+EhDwD4TGxbbAbSh0+gH1RHKUG+3wXDDrV/TUk5H3ydE3NFBG62VpmMmWWtrcWFTU5HHXngTgcjqaid1tbb683mcpsYtT/ran5iTxaWblWrTxp4Eyvt3ZuQUHGimXF56IUFxevyCgomLv9Ve+BUjEsZEpl5WfkQY/nR5EzCMLdsX3zkNAZoSgz8IQH+Gyeu8zN2hGaXevx3EyWDB48OJFemnECSiS1Oq39j7qde4O47P26rqk92ZbKpy8VYJaQq+B4CR8WBFmNVVRbXWlp0ZPT0pKttopUDqAGnv8E5lIScIvH0+abY0QhtoFcbJLmN0nF+csWjDc9Hg/MlWvCwjC5aA3uV2d2FIo+cNhtOyz6SWHHDjf2Ejq5p4Q9dy+Qq8aOHZso+rjshl6nSmam2lhgNMEFJr8BsQrIu8aNG/cIKzzJLMuuY9g84NtLCl0sRrNEPgLiHexD+7q7L4fFVlhtGKArW3mSQO7v7t5HO9iNjY2LPqZVS1+aET4ifAT9oMARL8LDM9R3X9y4qPEp1qmvKCm5NlFknDSEDqESGtqWkdEGZ/oZ0sBXJkn+sqTkBt7jPxwzZsyF6mr33hlcNrkIOblJXEWzFifJ/4D2C2JFenHYsGELeA2YrUvpPEkqOok+JDcl0culsCQhaY4A3efVtWzNQ7m5W3BlwffKtuifo6MnJ7M2SRTX5Gi4tPL6smzJzc1d41s/Hwd3PoDNBa0/yDuc1JWaEaILfQ6ad2tX+1lQ2vFq9tTZpO4RRAuKB70Wv31CdiQEM9uCSTAza6wp0x0VXVjN+CMetCJj/PcmRxBdnKcxCzFzs7Rc4Xfe3xrQtx+KoeinNPG+DY3Zt66SvxYHBQVGnt93DxYTCQ8C4/M0mxjtpLSgpxpQu+/LXg/dEVnt3ou1J8myPwmfLcz2qfvtUvPRY2C72GCoi/Rts2k5TDqqVfbfGccsZI02aef+rk4LWLTkdV1NMXBnlsiN/m78CGP7Ssu8Xpp9/wOIWc981sqkg/72+vnfISBgztGWST5q1sHe5vonUbLnzMvPz397jiab/vIfxW4Z0DO0m0IAAAAASUVORK5CYII=')]", "xpath:img"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c23972dd-1182-49b9-83d0-f88fa2c66a25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.gamedle.wtf/", "https://www.gamedle.wtf/classic", "https://loldle.net/classic"],
+  "plugins": []
+}
